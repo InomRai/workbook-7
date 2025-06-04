@@ -1,5 +1,7 @@
--- 1. What is the name of the table that holds the items Northwind sells?
-Select * From Product;
+-- 1. What is the name of the table that holds the items Northwind sells? 
+
+Select * From Product; 
+
 -- 2. Write a query to list the product id, product name, and unit price of every product. 
 Select 
 ProductID, 
@@ -7,7 +9,7 @@ ProductName,
 UnitPrice   
 
 From 
-productss; 
+products; 
 
 -- 3. Write a query to list the product id, product name, and unit price of every product. Except this time, order then in ascending order by price. 
 SELECT
